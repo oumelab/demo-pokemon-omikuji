@@ -14,6 +14,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+
+  output: "export", // 静的サイトとして出力する
 };
 
 export default nextConfig;
