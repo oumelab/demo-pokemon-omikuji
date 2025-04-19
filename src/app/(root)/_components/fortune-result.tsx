@@ -25,6 +25,7 @@ export default function FortuneResult({ fortune }: FortuneResultProps) {
             alt={fortune.pokemon.name}
             width={240}
             height={240}
+            unoptimized
             className="rounded-full bg-red-100 p-4 mb-4"
           />
           <h3 className="text-3xl font-bold mb-4">{fortune.pokemon.nameJa}</h3>

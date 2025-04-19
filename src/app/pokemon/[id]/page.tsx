@@ -46,6 +46,8 @@ export default async function PokemonDetails({ params }: PokemonDetailsProps) {
               alt={pokemon.nameJa}
               width={640}
               height={640}
+              unoptimized
+              priority
               className="w-full h-auto"
             />
           </div>
