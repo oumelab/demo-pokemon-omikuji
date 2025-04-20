@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className="container mx-auto p-4">{children}</div>
         </main>
 
-        <footer className="text-center">
+        <footer className="text-center sticky top-full pb-5">
           <p className="text-gray-400">
             Pokemon Omikuji | Created by{" "}
             <a className="underline" href="#">
